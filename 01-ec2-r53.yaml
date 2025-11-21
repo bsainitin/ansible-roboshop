@@ -6,11 +6,12 @@
     sg_id: sg-0fb1ade4148152810
     zone_id: Z10338052J7G3SOJ272FU
     domain_name: theawsdevops.space
-    instances:
-      - mongodb
-      - redis
-      - mysql
-      - rabbitmq
+    # pass instances through command line using -e
+    # instances:
+    #   - mongodb
+    #   - redis
+    #   - mysql
+    #   - rabbitmq
 
   tasks:
   - name: create ec2 instance
